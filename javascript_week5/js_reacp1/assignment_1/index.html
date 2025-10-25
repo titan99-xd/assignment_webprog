@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 1</title>
-</head>
-<body>
-    <h1>Welcome to Assignment 1</h1>
-    <p>This is a simple HTML page for Assignment 1.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 1 - Temperature Converter</title>
+  </head>
+  <body>
+    <h1>Temperature Converter</h1>
+    <p>
+      Enter a temperature in Celsius to convert it to Fahrenheit and Kelvin.
+    </p>
+
+    <label for="celsiusInput">Celsius:</label>
+    <input type="number" id="celsiusInput" placeholder="Enter temperature" />
+    <button id="convertBtn">Convert</button>
+
+    <h2>Results:</h2>
+    <p id="fahrenheitOutput"></p>
+    <p id="kelvinOutput"></p>
+
     <script src="main.js"></script>
-    
-</body>
+  </body>
 </html>
